@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "SnapMed";
+"NSCameraUsageDescription" = "Used to photograph medication information sheets, bags and labels. Photos stay on this device.";
+"NSPhotoLibraryUsageDescription" = "Used to import photos of medication information sheets, bags and labels. Photos stay on this device.";

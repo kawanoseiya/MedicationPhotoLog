@@ -1,0 +1,244 @@
+{
+  "@@locale": "en",
+  "appTitle": "SnapMed Log",
+  "tabHome": "Home",
+  "tabHistory": "History",
+  "settings": "Settings",
+  "captureButton": "Snap to record",
+  "captureCaption": "Photograph the medication sheet, bag or label. Several pages are fine.",
+  "importPhotos": "From photos",
+  "manualEntry": "Type it in",
+  "recentRecords": "Recent records",
+  "showAllRecords": "Show all {count} records",
+  "@showAllRecords": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeEmpty": "No records yet. Tap \"Snap to record\" and photograph a medication information sheet, a pharmacy bag or a label.",
+  "whoseRecords": "Whose records?",
+  "manageFamily": "Family members",
+  "switchPersonLabel": "Showing records for {name}. Tap to switch.",
+  "@switchPersonLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "newRecordTitle": "Check and save",
+  "editRecordTitle": "Edit record",
+  "readingText": "Reading the text on this device…",
+  "checkSuggestions": "Filled in from the photo. Compare with the photo and correct anything that's wrong.",
+  "blankIsOk": "You can leave anything blank and still save.",
+  "manualHint": "Type in what you know. Blank fields are fine. You can also add a photo.",
+  "fieldPerson": "Person",
+  "fieldDate": "Prescription date",
+  "fieldMedicines": "Medicines",
+  "fieldHospital": "Clinic / hospital",
+  "fieldPharmacy": "Pharmacy",
+  "fieldMemo": "Notes",
+  "fieldOcrText": "Text read from the photo",
+  "dateNotSet": "Not set (tap to choose)",
+  "dateNotSetShort": "Not set",
+  "notEntered": "Not entered",
+  "clearDate": "Clear date",
+  "medicineHint": "Medicine name",
+  "addMedicine": "Add a medicine",
+  "removeMedicine": "Remove this medicine",
+  "addPage": "Add page",
+  "addPhoto": "Add photo",
+  "addByCamera": "Take photos",
+  "addFromLibrary": "Choose from Photos",
+  "pageNumber": "Page {number}",
+  "@pageNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "pageOf": "{current} / {total}",
+  "@pageOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "removePageTitle": "Remove this page?",
+  "removePageBody": "The photo and its text will be removed from this record.",
+  "remove": "Remove",
+  "save": "Save",
+  "saved": "Saved.",
+  "saveFailed": "Couldn't save. Please try again.",
+  "discardTitle": "Discard this record?",
+  "discardBody": "The photos and what you entered will not be saved.",
+  "discard": "Discard",
+  "keepEditing": "Keep editing",
+  "cancel": "Cancel",
+  "close": "Close",
+  "delete": "Delete",
+  "deleted": "Deleted.",
+  "edit": "Edit",
+  "detailTitle": "Record",
+  "recordNotFound": "This record no longer exists.",
+  "tapToZoom": "Tap a photo to enlarge it",
+  "zoomPhoto": "Enlarge photo {number}",
+  "@zoomPhoto": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "showOcrText": "Show text",
+  "ocrTextNote": "Used for search. It may contain reading errors.",
+  "registeredAt": "Added {date}",
+  "@registeredAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteRecordTitle": "Delete this record",
+  "deleteRecordBody": "The record and its photos will be deleted from this device. This can't be undone.",
+  "noDateAdded": "No date (added {date})",
+  "@noDateAdded": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noMedicineNames": "No medicine names entered",
+  "listSeparator": ", ",
+  "searchHint": "Search medicines, clinics, pharmacies",
+  "clearSearch": "Clear search",
+  "noSearchResults": "No records match. Search also looks through the text read from photos.",
+  "searchResultCount": "{count, plural, =1{1 record} other{{count} records}}",
+  "@searchResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sectionFamily": "Family",
+  "familyNote": "Keep records separately for each person, such as your parents or children.",
+  "familyEditNote": "Tap a name to rename or delete it.",
+  "addPerson": "Add a person",
+  "renamePerson": "Rename",
+  "deletePerson": "Delete",
+  "deletePersonTitle": "Delete {name}?",
+  "@deletePersonTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deletePersonBody": "{count, plural, =0{This person has no records.} =1{1 record and its photos will also be deleted. This can't be undone.} other{{count} records and their photos will also be deleted. This can't be undone.}}",
+  "@deletePersonBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "personNameHint": "Name (e.g. Mom)",
+  "currentlyShown": "Currently shown",
+  "sectionPurchase": "Purchase",
+  "sectionLanguage": "Language",
+  "languageSystem": "Same as iPhone",
+  "sectionBackup": "Backup",
+  "backupNote": "Keep the backup file somewhere other than this iPhone, such as iCloud Drive. To move to a new iPhone, restore the file there.",
+  "exportBackup": "Export backup",
+  "exportBackupNote": "All records and photos in one file",
+  "restoreBackup": "Restore from backup",
+  "restoreBackupNote": "Replaces the records on this device",
+  "restoreConfirmTitle": "Replace all records?",
+  "restoreConfirmBody": "The records on this device will be replaced with the backup ({persons} people, {records} records). Records not in the backup will be deleted.",
+  "@restoreConfirmBody": {
+    "placeholders": {
+      "persons": {
+        "type": "int"
+      },
+      "records": {
+        "type": "int"
+      }
+    }
+  },
+  "restoreAction": "Replace",
+  "restoreDone": "Restored from the backup.",
+  "restoreUnreadable": "This file can't be restored. Choose a backup exported from this app.",
+  "backupFailed": "Something went wrong. Your records were not changed.",
+  "sectionAbout": "About this app",
+  "privacyTitle": "Privacy and data",
+  "privacyLocalTitle": "Stored only on this device",
+  "privacyLocalBody": "No account is needed. Records and photos are stored only in this app on your iPhone and are never sent to our servers. Deleting the app deletes them too, so export a backup if you want to keep them.",
+  "privacyOcrTitle": "Text is read on the device",
+  "privacyOcrBody": "Reading text from photos is done by iOS on this iPhone. Photos and text are not sent anywhere for reading.",
+  "privacyBackupTitle": "Backups",
+  "privacyBackupBody": "A backup is a single file containing all records and photos. It is not encrypted, so choose carefully where you save or send it.",
+  "privacyAdsTitle": "Ads",
+  "privacyAdsBody": "The free version shows ads from Google AdMob. Only non-personalized ads are requested, and your records and photos are never shared with the ad service.",
+  "privacyMedicalTitle": "About medical decisions",
+  "medicalDisclaimer": "This app keeps a history of medication information you photograph or enter. It does not give dosing instructions, check drug interactions, or send reminders. For questions about your medicines, ask your doctor or pharmacist.",
+  "removeAdsNote": "One-time purchase or monthly plan",
+  "paywallBody": "SnapMed Log is free with no limit on records. A one-time purchase or a monthly plan hides the ads.",
+  "textSizeNote": "Added on top of your iPhone's text size setting.",
+  "adPrivacyOptions": "Ad privacy choices",
+  "buyLifetime": "One-time purchase",
+  "buyLifetimeWithPrice": "One-time purchase: {price}",
+  "@buyLifetimeWithPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "buyMonthly": "Monthly plan",
+  "buyMonthlyWithPrice": "{price} per month",
+  "@buyMonthlyWithPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallLifetimeNote": "Pay once and the ads are gone for good.",
+  "paywallPointFree": "Every feature works without buying",
+  "paywallPointNoAds": "All ads are hidden",
+  "paywallTitle": "Remove ads",
+  "privacyPolicy": "Privacy Policy",
+  "purchaseCancelled": "The purchase was cancelled.",
+  "purchased": "Ads removed",
+  "purchasedNote": "Thank you for your support.",
+  "purchaseFailed": "The purchase could not be completed. Your records are safe.",
+  "purchaseSuccess": "Thank you! Ads are now hidden.",
+  "purchaseUnavailable": "Purchases are not available right now. Please try again later.",
+  "rateApp": "Rate this app",
+  "removeAds": "Remove ads",
+  "restoreNothing": "No purchase to restore was found.",
+  "restorePurchase": "Restore purchase",
+  "reviewLater": "Later",
+  "reviewMessage1": "This app is made by a solo developer.",
+  "reviewMessage2": "If it helps you, a review would be a huge encouragement and helps the app grow.",
+  "reviewMessage3": "(\"Later\" is totally fine too.)",
+  "reviewThankYouTitle": "Thank you for using this app!",
+  "subscriptionTerms": "The monthly plan renews automatically each month and is charged to your Apple Account unless you cancel at least 24 hours before the renewal date. You can cancel anytime in the Settings app under your name > Subscriptions.",
+  "termsOfUse": "Terms of Use",
+  "textExtraLarge": "Extra large",
+  "textLarge": "Large",
+  "textStandard": "Standard",
+  "sectionTextSize": "Text size",
+  "version": "Version",
+  "writeReview": "Write a review"
+}
